@@ -29,7 +29,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
 }
-
+.quote{
+    font-style: italic;
+    font-weight:bold;
+}
 .text {
     grid-column: 2 / 3;
     font-size: 1.8rem;
@@ -42,16 +45,24 @@ img {
     grid-column: 1 / -1;
     position: relative;
 }
-
+hr{
+    color: rgba(150, 223, 99, 0.50)
+}
+blockquote {
+    padding: 1rem 0;
+}
+.quote{
+    padding: 0 1rem;
+}
 .hero-title {
     text-align: center;
-    color: orangered;
+    color: #5681d0;
     font-size: 8rem;
 }
 
 .hero-subtitle {
     font-size: 2.4rem;
-    color: orangered;
+    color: #eacda3;
     text-align: center;
 }
 
@@ -65,7 +76,7 @@ img {
 }
 
 .publish-date {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(150, 223, 99, 0.50);
 }
 
 .social-icons {
@@ -79,5 +90,5 @@ img {
 
 .first-paragraph::first-letter {
     font-size: 6rem;
-    color: orangered;
+    color: #96df63;
 }
