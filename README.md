@@ -1,2 +1,2 @@
-# Example-Magazine-Page
-Original concept from [freecodeCamp.org](https://www.freecodecamp.org)
+# <p align=center>Example Magazine Style Website</p>
+![](Magazine_Style_Website.png?raw=true)
